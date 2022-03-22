@@ -1,0 +1,15 @@
+.ChatCommands {
+
+    background-color: rgba(0, 0, 0, 0.521);
+    width:30.3vw;
+    border-radius: 0.5em;
+    color:white;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: fit-content;
+    margin-bottom: 1vh!important;
+}
+.ChatCommands:hover {
+    color:aquamarine;
+    cursor: pointer;
+}

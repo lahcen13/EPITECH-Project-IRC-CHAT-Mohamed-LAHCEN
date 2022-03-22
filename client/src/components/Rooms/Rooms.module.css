@@ -1,0 +1,46 @@
+.room {
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 5vh;
+  background-color: #5FC2BA;
+  border-radius: 0.5em;
+  padding-top: 0.4vh;
+  width: 90%;
+}
+
+.room:hover{
+  transition: 0.2s;
+  transform: scale(1.04); 
+}
+
+.iconClose:hover{
+    transition: 0.2s;
+    transform: scale(1.2); 
+    cursor: pointer;
+    color:brown;
+
+}
+.title{
+  margin-bottom: 100px!important;
+}
+.roomsTitle{
+  margin-bottom:30px;
+  color:white;
+}
+
+.buttonMenu{
+  background-color: #1C2942;
+  border-radius: 0.3em;
+  color:white;
+  height: 5vh;
+  text-align: center;
+  vertical-align:middle!important;
+  padding-top:0.3vh;
+  border: 0.1em solid #0B162C;
+}
+.buttonMenu:hover{
+  transition: 0.3s;
+  background-color: #5FC2BA;
+  color: #0B162C;
+  cursor: pointer;
+}

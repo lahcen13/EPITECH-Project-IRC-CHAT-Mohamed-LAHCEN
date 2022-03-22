@@ -1,0 +1,36 @@
+.LeftMenu {
+height: 100vh;
+background-color: #3B556D;
+}
+
+.Navbar{
+    height: 10vh;
+    padding: 3vh;
+    background-color: #0B162C;
+    
+}
+
+.buttonMenu{
+    background-color: #3B556D;
+    border-radius: 0.3em;
+    color:white;
+    height: 5vh;
+    text-align: center;
+    vertical-align:middle!important;
+    padding-top:0.3vh;
+    border: 0.1em solid #0B162C;
+}
+.buttonMenu:hover{
+    transition: 0.3s;
+    background-color: #5FC2BA;
+    color: #0B162C;
+    cursor: pointer;
+}
+
+.container{
+    padding: 20px;
+    height: 90vh;
+    border: 2.5em solid #0B162C;
+}
+
+   

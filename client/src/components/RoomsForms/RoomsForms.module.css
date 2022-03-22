@@ -1,0 +1,37 @@
+.RoomsForms {
+
+}
+.container{
+    margin-top:7vh!important;
+    background-color: #ffffff;
+    border-radius: 0.5em;
+}
+.h3{
+    color:#0B162C;
+}
+
+.input{
+    background-color: #5FC2BA;
+    border:none;
+    border-radius: 0.5em;
+    margin-bottom: 20px;
+    width: 80%;
+    height:5.5vh;
+}
+.buttonMenu{
+    background-color: #1C2942;
+    border-radius: 0.3em;
+    color:white;
+    height: 5vh;
+    text-align: center;
+    vertical-align:middle!important;
+    padding-top:0.3vh;
+    border: 0.1em solid #0B162C;
+    margin-bottom:20px ;
+  }
+  .buttonMenu:hover{
+    transition: 0.3s;
+    background-color: #5FC2BA;
+    color: #0B162C;
+    cursor: pointer;
+  }

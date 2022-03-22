@@ -1,0 +1,43 @@
+.PopUpListChannel {
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(14, 14, 14, 0.829);
+    padding-top: 20vh;
+    
+    
+}
+.ligne{
+    height:35px;
+    background-color: #3B556D;
+    margin: 10px!important;
+    border-radius: 0.5em;
+}
+.box {
+    border: #3B556D solid 0.2em;
+    background-color: #5FC2BA;
+    width:30vw;
+    height: 40vh;
+    margin: auto!important;
+    padding: 15px;
+    border-radius: 0.5em;
+    overflow-y: scroll;
+}
+.text{
+    color:white;
+    margin-left:10px;
+}
+.inner::-webkit-scrollbar {
+    display: none;
+  }
+.icon:hover{
+    transform: scale(1.09);
+    cursor:pointer;
+
+}
+@media screen and (max-width: 600px) {
+.box {   
+    width:60vw;
+    height: 40vh;
+    margin-top: 40vh;   
+}
+  }
